@@ -1,0 +1,15 @@
+
+fun fib(limit) = {
+  fun fibRecurse(first, second, init) = {
+    if (List.length(init) == limit)
+      init
+    else {
+      val next = first + second
+      fibRecurse(second, next, List.add(init, next))
+    }
+  }
+
+  fibRecurse(1, 1, [1, 1])
+}
+
+fun main() = println(fib(1 + 3 * 5))

@@ -1,0 +1,17 @@
+{
+  "name": "tsletlang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/main.js",
+  "scripts": {
+    "start": "tsc && node ./build/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
